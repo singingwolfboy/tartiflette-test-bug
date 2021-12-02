@@ -5,6 +5,7 @@ from tartiflette.schema.registry import SchemaRegistry
 
 from myapp import make_app
 
+
 # https://github.com/pytest-dev/pytest-asyncio/issues/170#issuecomment-706114516
 @pytest.fixture
 def loop(event_loop):

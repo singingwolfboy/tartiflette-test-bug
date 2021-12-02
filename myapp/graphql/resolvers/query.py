@@ -9,10 +9,9 @@ class Args(TypedDict):
 
 
 @Resolver("Query.hello")
-async def resolve_hello(
-    parent: None, args: Args, ctx: dict, info: ResolveInfo
-) -> str:
+async def resolve_hello(parent: None, args: Args, ctx: dict, info: ResolveInfo) -> str:
     return f"Hello {args['name']}"
+
 
 @Resolver("Query.goodbye")
 async def resolve_goodbye(
