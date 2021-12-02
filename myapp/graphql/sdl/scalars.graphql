@@ -1,0 +1,4 @@
+"""
+Represents a file upload.
+"""
+scalar Upload

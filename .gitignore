@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+
+# pyenv
+.python-version
+
+# pip stuff
+*.egg-info
+
+# Dynaconf secret files
+.secrets.*
+
+# automated test reports
+reports/
+.coverage
